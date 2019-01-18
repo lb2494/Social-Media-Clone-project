@@ -12,7 +12,7 @@ urlpatterns = [
          auth_views.LogoutView.as_view(),
          name='logout'),
     path('signup/',
-         views.SignUp,
+         views.SignUp.as_view(),
          name='signup')
 
 ]
