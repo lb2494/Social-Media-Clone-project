@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2e5b79f-b186-48ab-8b37-fada2cd6ed2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/socialweb/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialweb/group/templates/group/group_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/group/templates/group/group_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialweb/group/templates/group/group_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/group/templates/group/group_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/socialweb/group/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/group/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/socialweb/group/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/group/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialweb/posts/templates/posts/_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/posts/templates/posts/_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialweb/posts/templates/posts/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/posts/templates/posts/post_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialweb/posts/templates/posts/user_post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/posts/templates/posts/user_post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialweb/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialweb/socialweb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/socialweb/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialweb/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/socialweb/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +22,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socialweb/posts/templates/posts/post_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socialweb/posts/templates/posts/user_post_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socialweb/posts/forms.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socialweb/group/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+            <state relative-caret-position="616">
+              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -25,11 +57,62 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/socialweb/group/templates/group/group_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socialweb/group/templates/group/group_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socialweb/group/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socialweb/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-449">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socialweb/group/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="88">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socialweb/posts/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -51,31 +134,31 @@
         <option value="$PROJECT_DIR$/socialweb/templates/test.html" />
         <option value="$PROJECT_DIR$/socialweb/templates/thanks.html" />
         <option value="$PROJECT_DIR$/socialweb/socialweb/views.py" />
-        <option value="$PROJECT_DIR$/socialweb/socialweb/urls.py" />
         <option value="$PROJECT_DIR$/socialweb/accounts/models.py" />
         <option value="$PROJECT_DIR$/socialweb/accounts/views.py" />
         <option value="$PROJECT_DIR$/socialweb/accounts/forms.py" />
-        <option value="$PROJECT_DIR$/socialweb/templates/base.html" />
         <option value="$PROJECT_DIR$/socialweb/accounts/urls.py" />
         <option value="$PROJECT_DIR$/socialweb/group/templates/group/group_base.html" />
-        <option value="$PROJECT_DIR$/socialweb/group/templates/group/group_detail.html" />
-        <option value="$PROJECT_DIR$/socialweb/group/templates/group/group_list.html" />
         <option value="$PROJECT_DIR$/socialweb/group/templates/group/group_form.html" />
         <option value="$PROJECT_DIR$/socialweb/group/admin.py" />
-        <option value="$PROJECT_DIR$/socialweb/posts/views.py" />
         <option value="$PROJECT_DIR$/socialweb/posts/urls.py" />
         <option value="$PROJECT_DIR$/socialweb/socialweb/settings.py" />
         <option value="$PROJECT_DIR$/socialweb/group/models.py" />
         <option value="$PROJECT_DIR$/socialweb/posts/models.py" />
         <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/post_base.html" />
-        <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/post_form.html" />
         <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/post_list.html" />
-        <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/_post.html" />
         <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/post_confirm_delete.html" />
         <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/post_detail.html" />
-        <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/user_post_list.html" />
-        <option value="$PROJECT_DIR$/socialweb/group/views.py" />
         <option value="$PROJECT_DIR$/socialweb/group/urls.py" />
+        <option value="$PROJECT_DIR$/socialweb/socialweb/urls.py" />
+        <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/_post.html" />
+        <option value="$PROJECT_DIR$/socialweb/posts/views.py" />
+        <option value="$PROJECT_DIR$/socialweb/group/templates/group/group_detail.html" />
+        <option value="$PROJECT_DIR$/socialweb/group/views.py" />
+        <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/post_form.html" />
+        <option value="$PROJECT_DIR$/socialweb/posts/templates/posts/user_post_list.html" />
+        <option value="$PROJECT_DIR$/socialweb/templates/base.html" />
+        <option value="$PROJECT_DIR$/socialweb/group/templates/group/group_list.html" />
       </list>
     </option>
   </component>
@@ -116,7 +199,49 @@
               <item name="Social Media Clone" type="b2602c69:ProjectViewProjectNode" />
               <item name="Social Media Clone" type="462c0819:PsiDirectoryNode" />
               <item name="socialweb" type="462c0819:PsiDirectoryNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Social Media Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Social Media Clone" type="462c0819:PsiDirectoryNode" />
               <item name="socialweb" type="462c0819:PsiDirectoryNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Social Media Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Social Media Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="socialweb" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Social Media Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Social Media Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="socialweb" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Social Media Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Social Media Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="socialweb" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Social Media Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Social Media Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="socialweb" type="462c0819:PsiDirectoryNode" />
+              <item name="socialweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Social Media Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Social Media Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="socialweb" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +283,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18797815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -169,8 +294,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" x="73" y="404" width="1840" height="306" id="Terminal" order="8" sideWeight="0.49945354" visible="true" weight="0.3416216" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054646" side_tool="true" weight="0.33081082" />
+      <window_info active="true" anchor="bottom" x="73" y="404" width="1840" height="306" id="Terminal" order="8" sideWeight="0.4989071" visible="true" weight="0.3416216" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010929" side_tool="true" weight="0.3416216" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -228,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socialweb/socialweb/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -286,16 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/socialweb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socialweb/group/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -308,26 +416,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/socialweb/posts/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/posts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/posts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/socialweb/socialweb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -343,34 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/group/templates/group/group_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="67" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socialweb/group/templates/group/group_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/group/templates/group/group_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/posts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -388,24 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/posts/templates/posts/user_post_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socialweb/posts/templates/posts/post_base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/posts/templates/posts/post_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -416,16 +466,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/posts/templates/posts/_post.html">
+    <entry file="file://$PROJECT_DIR$/socialweb/socialweb/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="511">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/posts/templates/posts/_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/posts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/posts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/posts/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/socialweb/group/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
+        <state relative-caret-position="748">
           <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -433,23 +513,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/group/urls.py">
+    <entry file="file://$PROJECT_DIR$/socialweb/posts/templates/posts/post_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="220">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/posts/templates/posts/user_post_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/group/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/posts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialweb/group/views.py">
+    <entry file="file://$PROJECT_DIR$/socialweb/group/templates/group/group_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/group/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialweb/group/templates/group/group_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
         </state>
       </provider>
     </entry>

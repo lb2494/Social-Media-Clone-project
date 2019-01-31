@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 from django.urls import reverse
 from django.views import generic
-from group.models import Group, GroupMembers
+from group.models import Group, GroupMember
 from . import models
 
 from django.shortcuts import get_object_or_404
@@ -24,15 +24,15 @@ class ListGroups(generic.ListView):
 
 class JoinGroup(LoginRequiredMixin,generic.RedirectView):
     def get_redirect_url(self, *args, **kwargs):
-        return reverse('group:single',kwargs={'slug'=slug.kwargs.get('slug')})
+        return reverse('group:single',kwargs={'slug':self.kwargs.get('slug')})
 
     def get(self, request, *args, **kwargs):
         group = get_object_or_404(Group,slug=self.kwargs.get('slug'))
 
         try:
-            GroupMembers.objects.create(user=self.request.user,group=group)
+            GroupMember.objects.create(user=self.request.user,group=group)
 
-        except IntegrityError:
+        except:
             messages.warning(self.request,'You are already a user!')
 
         else:
@@ -42,14 +42,14 @@ class JoinGroup(LoginRequiredMixin,generic.RedirectView):
 
 class LeaveGroup(LoginRequiredMixin,generic.RedirectView):
     def get_redirect_url(self, *args, **kwargs):
-        return reverse('group:single',kwargs={'slug'=slug.kwargs.get('slug')})
+        return reverse('group:single',kwargs={'slug': self.kwargs.get('slug')})
 
     def get(self, request, *args, **kwargs):
 
         try:
             membership = models.GroupMember.objects.filter(
                 user = self.request.user,
-                group_slug = self.kwargs.get('slug')
+                group__slug = self.kwargs.get('slug')
             ).get()
 
         except models.GroupMember.DoesNotExist:
