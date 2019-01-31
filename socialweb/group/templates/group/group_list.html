@@ -10,7 +10,7 @@
     </div>
     {% if user.is_authenticated %}
     <a href="{% url 'group:create' %}" class="btn btn-md btn-fill btn-warning">
-        <span class="glyphicon glyphicon-plus-circle"></span>Create New Group</a>
+        <span class="fa fa-plus"></span> Create New Group</a>
     {% endif %}
 
 </div>
@@ -21,17 +21,17 @@
 <div class="col-md-8">
     <div class="list-group">
         {% for group in object_list %}
-        <a class="list-group-item" href="{% url 'group:single' slug=group.slug %}">
-            <h3 class="title list-group-item-heading">{{group.name}}</h3></a>
+        <a class="list-group-item list-group-item-action flex-column align-items-start" href="{% url 'group:single' slug=group.slug %}">
+            <h3 class="mb-1">{{group.name}}</h3></a>
 
-        <div class="list-group-item-text container-fluid">
+        <div class="mb-1">
             {{group.description_html|safe}}
-            <div class="row">
+            <div class="d-flex w-40 justify-content-between">
                 <div class="col-md-4">
-                    <span class="badge">{{group.members.count}}</span>members: {{group.members.count|pluralize}}
+                    <span class="badge badge-secondary">{{group.members.count}}</span> members {{group.members.count|pluralize}}
                 </div>
                 <div class="col-md-4">
-                    <span class="badge">{{group.posts.count}}</span>posts: {{group.members.count|pluralize}}
+                    <span class="badge badge-secondary">{{group.posts.count}}</span> posts {{group.members.count|pluralize}}
                 </div>
 
             </div>

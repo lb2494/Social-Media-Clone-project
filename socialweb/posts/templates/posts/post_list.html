@@ -8,11 +8,12 @@
         <div class="content">
             <h5 class="title">Your groups</h5>
             <ul class="list-unstyled">
+
                 {% for member_group in get_user_groups %}
                 <li class="group li-with-bullets">
-                    <a href="{% url 'group:single' slug=member_group.group.slug %}">  </a>
+                    <a href="{% url 'group:single' slug=member_group.group.slug %}"> {{member_group.group.name}} </a>
                 </li>
-                {% endfor %]
+                {% endfor %}
             </ul>
         </div>
 
@@ -21,27 +22,31 @@
 </div>
 
 <div class="card card-with-shadow">
+                <h5 class="title">All groups</h5>
+
         <div class="content">
-            <h5 class="title">Your groups</h5>
             <ul class="list-unstyled">
                 {% for other_group in get_other_groups %}
                 <li class="group li-with-bullets">
-                    <a href="{% url 'group:single' slug=other_group.group.slug %}">  </a>
+                    <a href="{% url 'group:single' slug=other_group.group.slug %}"> {{other_group.group.name}} </a>
                 </li>
-                {% endfor %]
+            {% endfor %}
             </ul>
-        </div>
-
+            </div>
     </div>
+
+
+
+
 
 {% endblock %}
 
 {% block post_content %}
-
+<div class="container">
 <div class="col-md-8">
     {% for post in post_list %}
         {% include 'posts/_post.html' %}
     {% endfor %}
 </div>
-
+</div>
 {% endblock %}
