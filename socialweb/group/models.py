@@ -3,7 +3,7 @@ from django.urls import reverse
 from django.utils.text import slugify
 from django.contrib.auth import get_user_model
 from django import template
-import masaka
+import misaka
 # Create your models here.
 User = get_user_model()
 register = template.Library()
@@ -20,7 +20,7 @@ class Group(models.Model):
     
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
-        self.description_html = masaka.html(self.description)
+        self.description_html = misaka.html(self.description)
         
         super().save(*args,**kwargs)
         
@@ -31,8 +31,8 @@ class Group(models.Model):
         ordering = ['name']
 
 class GroupMember(models.Model):
-    group = models.ForeignKey(Group,related_name='memberships')
-    user = models.ForeignKey(User,related_name='user_groups')
+    group = models.ForeignKey(Group,related_name='memberships',on_delete=models.CASCADE)
+    user = models.ForeignKey(User,related_name='user_groups',on_delete=models.CASCADE)
     
     def __str__(self):
         return self.user.username

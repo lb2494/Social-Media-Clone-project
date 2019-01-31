@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'bootstrap4',
+    'group',
+    'posts',
 ]
 
 MIDDLEWARE = [
